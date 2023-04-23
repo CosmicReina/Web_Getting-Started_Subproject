@@ -48,6 +48,7 @@ body{
     color: #000000 !important;
     background-color: #FFFFFF !important;
 }
+
 #sideVideo{
     width: 100%;
     height: 553px;
@@ -56,4 +57,22 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
+
+#sponsor{
+    width: 100%;
+}
+
+#sponsorLeft{
+    font-size: 120px;
+}
+
+#sponsorRight{
+    font-size: 120px;
+}
+
+.carousel-item>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
