@@ -4,6 +4,10 @@ body{
     
 }
 
+header{
+    margin: 0 auto;
+}
+
 #notify-bar{
     width: auto;
     height: 48px;
@@ -33,8 +37,12 @@ body{
     font-size: 14px;
 }
 
-.nav-link:hover{
-    box-shadow:inset 0px 2px 0px 0px #FFFFFF;
+.navList{
+    color: #FFFFFF;
+}
+
+.navList:hover{
+    color: #FFFFFF;
 }
 
 #searchDemo{

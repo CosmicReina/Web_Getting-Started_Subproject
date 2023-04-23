@@ -14,10 +14,51 @@
 </head>
 <script>
     $(document).ready(function(){
-
+        $(window).scrollTop(0);
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 0){
+                var header = document.getElementsByTagName("header")[0];
+                if(header.classList.contains("fixed-top") == false){
+                    var header = document.getElementsByTagName("header")[0].classList.add("fixed-top");
+                }
+                $("#navbar").css("background-color", "#FFFFFF");
+                $("#navbar").css("transition", "0.5s");
+                $(".navList").hover(
+                    function(){
+                        $(this).css("box-shadow", "inset 0px 2px 0px 0px #000000");
+                        $(this).css("transition", "0.5s");
+                    }, 
+                    function(){
+                        $(this).css("box-shadow", "none");
+                        $(this).css("transition", "0.5s");
+                    });
+                $(".navList").css("color", "#000000");
+                $(".navList").css("transition", "0.5s");
+            }
+            else{
+                var header = document.getElementsByTagName("header")[0];
+                if(header.classList.contains("fixed-top") == true){
+                    var header = document.getElementsByTagName("header")[0].classList.remove("fixed-top");
+                }
+                $("#navbar").css("background-color", "transparent");
+                $("#navbar").css("transition", "0.5s");
+                $(".navList").hover(
+                    function(){
+                        $(this).css("box-shadow", "inset 0px 2px 0px 0px #FFFFFF");
+                        $(this).css("transition", "0.5s");
+                    }, 
+                    function(){
+                        $(this).css("box-shadow", "none");
+                        $(this).css("transition", "0.5s");
+                    });
+                $(".navList").css("color", "#FFFFFF");
+                $(".navList").css("transition", "0.5s");
+            }
+        });
     });
+    
 </script>
-<body>
+<header>
     <div id="notify-bar">
         <div class="text-light">Abnormal and CloudStrike launch strageic partnership.</div>
         <div class="ml-2 mr-2 text-light"> | </div>
@@ -28,25 +69,27 @@
             <img src="../IMG/Abnormal/Abnormal.png" width="166px">
         </a>
         <div id="navbar-nav" class="col-md-8">
-            <a class="nav-link text-white" href="#">Why Abnormal</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Products</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Solutions</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Customer</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Partners</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Resources</a>
-            <a class="text-white" style="font-size: 24px;">/</a>
-            <a class="nav-link text-white" href="#">Careers</a>
+            <a class="nav-link navList" href="#">Why Abnormal</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Products</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Solutions</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Customer</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Partners</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Resources</a>
+            <a class="navList" style="font-size: 24px;">/</a>
+            <a class="nav-link navList" href="#">Careers</a>
         </div>
         <div id="searchDemo" class="col-md-2">
             <a href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
             <input id="btnDemo" class="btn text-light" value="See a Demo" type="button" style="background-color: #000000; border-radius: 0px 0px 0px 0px;">
         </div>
     </div>
+</header>
+<body>
     <div class="row">
         <div class="col-1"></div>
         <div class="col-4" id="sideVideo">
@@ -182,5 +225,15 @@
         <div class="col-4 block"><img src="../IMG/Abnormal/Block.png" width="100%"></div>
         <div class="col-1"></div>
     </div>
+    <div class="row" id="riskOne"></div>
+    <div class="row" id="riskTwo"></div>
+    <div class="row" id="autoClub"></div>
+    <div class="row" id="unique"></div>
+    <div class="row" id="cusStory"></div>
+    <div class="row" id="cusRate"></div>
+    <div class="row" id="stop"></div>
+    <div class="row" id="resources"></div>
 </body>
+<footer>
+</footer>
 </html>
