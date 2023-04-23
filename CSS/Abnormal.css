@@ -48,3 +48,12 @@ body{
     color: #000000 !important;
     background-color: #FFFFFF !important;
 }
+#sideVideo{
+    width: 100%;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
