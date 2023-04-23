@@ -78,6 +78,7 @@ body{
 
 #rsa{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -88,3 +89,22 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
+
+.shift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shift>h3{
+    font-size: 30px;
+}
+
+.shiftText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
