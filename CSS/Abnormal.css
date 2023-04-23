@@ -76,3 +76,15 @@ body{
     margin-right: auto;
   }
 
+#rsa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lsa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
