@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-BoldItalic.eot');
+    src: url('../FONTS/TWKEverett-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-BoldItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-BoldItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-BoldItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-BoldItalic.svg#TWKEverett-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Extrabold.eot');
+    src: url('../FONTS/TWKEverett-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Extrabold.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Extrabold.woff') format('woff'),
+        url('../FONTS/TWKEverett-Extrabold.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Extrabold.svg#TWKEverett-Extrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-ExtraboldItalic.eot');
+    src: url('../FONTS/TWKEverett-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-ExtraboldItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-ExtraboldItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-ExtraboldItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-ExtraboldItalic.svg#TWKEverett-ExtraboldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-LightItalic.eot');
+    src: url('../FONTS/TWKEverett-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-LightItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-LightItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-LightItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-LightItalic.svg#TWKEverett-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Hairline.eot');
+    src: url('../FONTS/TWKEverett-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Hairline.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Hairline.woff') format('woff'),
+        url('../FONTS/TWKEverett-Hairline.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Hairline.svg#TWKEverett-Hairline') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-HairlineItalic.eot');
+    src: url('../FONTS/TWKEverett-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-HairlineItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-HairlineItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-HairlineItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-HairlineItalic.svg#TWKEverett-HairlineItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Light.eot');
+    src: url('../FONTS/TWKEverett-Light.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Light.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Light.woff') format('woff'),
+        url('../FONTS/TWKEverett-Light.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Light.svg#TWKEverett-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Medium.eot');
+    src: url('../FONTS/TWKEverett-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Medium.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Medium.woff') format('woff'),
+        url('../FONTS/TWKEverett-Medium.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Medium.svg#TWKEverett-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-MediumItalic.eot');
+    src: url('../FONTS/TWKEverett-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-MediumItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-MediumItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-MediumItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-MediumItalic.svg#TWKEverett-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Thin.eot');
+    src: url('../FONTS/TWKEverett-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Thin.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Thin.woff') format('woff'),
+        url('../FONTS/TWKEverett-Thin.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Thin.svg#TWKEverett-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-ThinItalic.eot');
+    src: url('../FONTS/TWKEverett-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-ThinItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-ThinItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-ThinItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-ThinItalic.svg#TWKEverett-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Regular.eot');
+    src: url('../FONTS/TWKEverett-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Regular.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Regular.woff') format('woff'),
+        url('../FONTS/TWKEverett-Regular.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Regular.svg#TWKEverett-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Super.eot');
+    src: url('../FONTS/TWKEverett-Super.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Super.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Super.woff') format('woff'),
+        url('../FONTS/TWKEverett-Super.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Super.svg#TWKEverett-Super') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Black.eot');
+    src: url('../FONTS/TWKEverett-Black.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Black.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Black.woff') format('woff'),
+        url('../FONTS/TWKEverett-Black.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Black.svg#TWKEverett-Black') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Ultralight.eot');
+    src: url('../FONTS/TWKEverett-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Ultralight.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Ultralight.woff') format('woff'),
+        url('../FONTS/TWKEverett-Ultralight.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Ultralight.svg#TWKEverett-Ultralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-RegularItalic.eot');
+    src: url('../FONTS/TWKEverett-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-RegularItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-RegularItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-RegularItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-RegularItalic.svg#TWKEverett-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-SuperItalic.eot');
+    src: url('../FONTS/TWKEverett-SuperItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-SuperItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-SuperItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-SuperItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-SuperItalic.svg#TWKEverett-SuperItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-UltralightItalic.eot');
+    src: url('../FONTS/TWKEverett-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-UltralightItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-UltralightItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-UltralightItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-UltralightItalic.svg#TWKEverett-UltralightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-BlackItalic.eot');
+    src: url('../FONTS/TWKEverett-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-BlackItalic.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-BlackItalic.woff') format('woff'),
+        url('../FONTS/TWKEverett-BlackItalic.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-BlackItalic.svg#TWKEverett-BlackItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../FONTS/TWKEverett-Bold.eot');
+    src: url('../FONTS/TWKEverett-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/TWKEverett-Bold.woff2') format('woff2'),
+        url('../FONTS/TWKEverett-Bold.woff') format('woff'),
+        url('../FONTS/TWKEverett-Bold.ttf') format('truetype'),
+        url('../FONTS/TWKEverett-Bold.svg#TWKEverett-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    font-family: 'TWK Everett';
+}
