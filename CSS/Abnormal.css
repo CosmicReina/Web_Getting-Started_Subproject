@@ -8,6 +8,10 @@ header{
     margin: 0 auto;
 }
 
+footer{
+    margin: 0 auto;    
+}
+
 #notify-bar{
     width: auto;
     height: 48px;
@@ -64,6 +68,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+#mainVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #sponsor{
@@ -123,7 +134,7 @@ header{
     align-items: flex-start;
 }
 
-.block *{
+.block>*{
     margin-top: 10px;
 }
 
@@ -144,4 +155,8 @@ header{
 
 .messageText>h4{
     color: #3D8280;
+}
+
+#footMenu{
+    background-color: #0d1418;
 }
