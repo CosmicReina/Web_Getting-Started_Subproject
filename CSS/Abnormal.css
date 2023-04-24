@@ -1,7 +1,6 @@
 body{
     margin: 0 auto;
     background-color: #6863F2;
-    
 }
 
 header{
@@ -10,6 +9,21 @@ header{
 
 footer{
     margin: 0 auto;    
+}
+
+.container{
+    max-width: none;
+}
+
+.container>.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row>.row{
+    width: 1200px;
 }
 
 #notify-bar{
@@ -41,15 +55,15 @@ footer{
     font-size: 14px;
 }
 
-.navList{
+.nav-list{
     color: #FFFFFF;
 }
 
-.navList:hover{
+.nav-list:hover{
     color: #FFFFFF;
 }
 
-#searchDemo{
+#search-demo{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -61,7 +75,11 @@ footer{
     background-color: #FFFFFF !important;
 }
 
-#sideVideo{
+#head{
+    background-color: #6863F2;
+}
+
+#side-video{
     width: 100%;
     height: 553px;
     display: flex;
@@ -70,7 +88,7 @@ footer{
     align-items: flex-start;
 }
 
-#mainVideo{
+#main-video{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,14 +96,20 @@ footer{
 }
 
 #sponsor{
+    padding-top: 10px;
+    background: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+#sponsor-menu{
     width: 100%;
 }
 
-#sponsorLeft{
+#sponsor-left{
     font-size: 120px;
 }
 
-#sponsorRight{
+#sponso-right{
     font-size: 120px;
 }
 
@@ -93,9 +117,14 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 #rsa{
+    height: 240px;
+    background-color: #04015C;
+}
+
+#rsa-img{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,6 +138,10 @@ footer{
     align-items: flex-start;
 }
 
+#shift{
+    background-color: #FFFFFF;
+}
+
 .shift{
     display: flex;
     flex-direction: column;
@@ -120,11 +153,15 @@ footer{
     font-size: 30px;
 }
 
-.shiftText{
+.shift-text{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+#block{
+    background-color: #FFFFFF;
 }
 
 .block{
@@ -147,16 +184,16 @@ footer{
     flex-direction: row;
 }
 
-.messageText{
+.message-text{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.messageText>h4{
+.message-text>h4{
     color: #3D8280;
 }
 
-#footMenu{
+#foot-menu{
     background-color: #0d1418;
 }
