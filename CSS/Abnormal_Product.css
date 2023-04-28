@@ -1,0 +1,146 @@
+header{
+    margin: 0 auto;
+    background-color: #0D1418;
+}
+
+nav{
+    margin: 0 auto;
+    background-color: #5E58F1;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #5E58F1;
+}
+
+footer{
+    margin: 0 auto;
+    background-color: #0d1418;
+}
+
+.container{
+    max-width: none;
+}
+
+.container>.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row>.row{
+    width: 1200px;
+}
+
+#notify-bar{
+    width: auto;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    margin: 0 auto;
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar-nav>.nav-link{
+    font-size: 14px;
+}
+
+.nav-list{
+    color: #FFFFFF;
+}
+
+.nav-list:hover{
+    color: #FFFFFF;
+}
+
+#search-demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-demo:hover{
+    color: #000000 !important;
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+
+#foot-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.foot-item{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-link-top{
+    margin-bottom: 20px !important;
+}
+
+.foot-link{
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 5px #FFFFFF;
+    font-size: 12px;
+}
+
+.foot-link:hover{
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #FFFFFF;
+    box-shadow: inset 0px 1px 0px 0px #FFFFFF
+}
+
+#abnormal-small{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px #FFFFFF;
+}
+
+#foot-footer{
+    position: relative;
+    background-color: #0d1418;
+}
+
+#foot-footer-img{
+    position: absolute;
+    top: -350px;
+}
+
+#nav-inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.inform-link{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.inform-link:hover{
+    color: #FFFFFF;
+}
