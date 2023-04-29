@@ -82,3 +82,16 @@ footer{
 .inform-link:hover{
     color: #FFFFFF;
 }
+
+<!--Page CSS-->
+
+#sponsor-menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel-item>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
