@@ -5,12 +5,12 @@ header{
 
 nav{
     margin: 0 auto;
-    background-color: #5E58F1;
+    background-color: #BEF3E3;
 }
 
 body{
     margin: 0 auto;
-    background-color: #5E58F1;
+    background-color: #BEF3E3;
 }
 
 footer{
@@ -83,15 +83,18 @@ footer{
     color: #FFFFFF;
 }
 
-<!--Page CSS-->
-
-#sponsor-menu{
-    padding-top: 10px;
-    padding-bottom: 10px;
+#top-background{
+    position: relative;
+    z-index: 0;
 }
 
-.carousel-item>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#panel-one{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }

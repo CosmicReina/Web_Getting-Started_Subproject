@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Security Resources Center | Abnormal</title>
+    <!--Library-->
+    <link rel="stylesheet" href="../LIBS/CSS/bootstrap.min.css">
+    <script src="../LIBS/JS/jquery-3.6.4.min.js"></script>
+    <script src="../LIBS/JS/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../CSS/Abnormal_Resources.css">
+    <link rel="stylesheet" href="../FONTS/Fonts.css">
+</head>
+<script>
+    $(document).ready(function(){
+        $(window).scrollTop(0);
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 0){
+                var header = document.getElementsByTagName("nav")[0];
+                if(header.classList.contains("fixed-top") == false){
+                    var header = document.getElementsByTagName("nav")[0].classList.add("fixed-top");
+                }
+                $("nav").css("background-color", "#FFFFFF");
+                $("nav").css("transition", "0.5s");
+                $("#navbar").css("background-color", "#FFFFFF");
+                $("#navbar").css("transition", "0.5s");
+                $(".nav-list").hover(
+                    function(){
+                        $(this).css("box-shadow", "inset 0px 2px 0px 0px #000000");
+                        $(this).css("transition", "0.5s");
+                    }, 
+                    function(){
+                        $(this).css("box-shadow", "none");
+                        $(this).css("transition", "0.5s");
+                    });
+                $(".nav-list").css("color", "#000000");
+                $(".nav-list").css("transition", "0.5s");
+            }
+            else{
+                var header = document.getElementsByTagName("nav")[0];
+                if(header.classList.contains("fixed-top") == true){
+                    var header = document.getElementsByTagName("nav")[0].classList.remove("fixed-top");
+                }
+                $("nav").css("background-color", "transparent");
+                $("nav").css("transition", "0.5s");
+                $("#navbar").css("background-color", "transparent");
+                $("#navbar").css("transition", "0.5s");
+                $(".nav-list").hover(
+                    function(){
+                        $(this).css("box-shadow", "inset 0px 2px 0px 0px #FFFFFF");
+                        $(this).css("transition", "0.5s");
+                    }, 
+                    function(){
+                        $(this).css("box-shadow", "none");
+                        $(this).css("transition", "0.5s");
+                    });
+                $(".nav-list").css("color", "#FFFFFF");
+                $(".nav-list").css("transition", "0.5s");
+            }
+        });
+    });
+</script>
+<header>
+    <div class="container">
+        <div class="row">
+            <div id="notify-bar" class="row">
+                <div class="text-light">Abnormal and CloudStrike launch strageic partnership.</div>
+                <div class="ml-2 mr-2 text-light"> | </div>
+                <div><a href="#" style="color: #B2F5E2;">Learn more &rarr;</a></div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="container">
+        <div class="row">
+            <div id="navbar" class="row">
+                <a class="col-md-2" href="Abnormal.html" target="_self">
+                    <img src="../IMG/Abnormal/Abnormal.png" width="166px">
+                </a>
+                <div id="navbar-nav" class="col-md-8">
+                    <a class="nav-link nav-list" href="#">Why Abnormal</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Products</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Solutions</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Customer</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Partners</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Resources</a>
+                    <a class="nav-list" style="font-size: 24px;">/</a>
+                    <a class="nav-link nav-list" href="#">Careers</a>
+                </div>
+                <div id="search-demo" class="col-md-2">
+                    <a href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
+                    <input id="btn-demo" class="btn text-light" value="See a Demo" type="button" style="background-color: #000000; border-radius: 0px 0px 0px 0px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<body>
+    
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div id="foot-menu" class="row" style="height: 700px;">
+                <div class="col-1"></div>
+                <div class="col-10" id="foot-nav">
+                    <div class="foot-item">
+                        <img id="abnormal-small" src="../IMG/Abnormal/Abnormal-small.png" width="100%">
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Why Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Products</a>
+                        <a class="foot-link nav-link" href="#">All Products</a>
+                        <a class="foot-link nav-link" href="#">Inbound Email<br>Security</a>
+                        <a class="foot-link nav-link" href="#">Abuse Emailbot<br>Automation</a>
+                        <a class="foot-link nav-link" href="#">Account<br>Takeover<br>Protection</a>
+                        <a class="foot-link nav-link" href="#">Email<br>Productivity</a>
+                        <a class="foot-link nav-link" href="#">Security<br>Posture<br>Management</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Solutions</a>
+                        <a class="foot-link nav-link" href="#">For Microsoft<br>Office</a>
+                        <a class="foot-link nav-link" href="#">For Google<br>Wordspace</a>
+                        <a class="foot-link nav-link" href="#">Credential<br>Phishing</a>
+                        <a class="foot-link nav-link" href="#">Business Email<br>Compromise</a>
+                        <a class="foot-link nav-link" href="#">Malware &<br>Ransomware</a>
+                        <a class="foot-link nav-link" href="#">Unwanted Mail</a>
+                        <a class="foot-link nav-link" href="#">Email Platform<br>Attack</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Customers</a>
+                        <a class="foot-link nav-link" href="#">Customer Stories</a>
+                        <a class="foot-link nav-link" href="#">Gartner Peer<br>Insights</a>
+                        <a class="foot-link nav-link" href="#">Support Portal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Partners</a>
+                        <a class="foot-link nav-link" href="#">Microsoft<br>Partnership</a>
+                        <a class="foot-link nav-link" href="#">Technology<br>Partners</a>
+                        <a class="foot-link nav-link" href="#">Partner Portal</a>
+                        <a class="foot-link nav-link" href="#">CrowdStrike +<br>Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Resources</a>
+                        <a class="foot-link nav-link" href="#">All Resources</a>
+                        <a class="foot-link nav-link" href="#">Abnormal Blog</a>
+                        <a class="foot-link nav-link" href="#">Abnormal<br>Intelligence</a>
+                        <a class="foot-link nav-link" href="#">Cybersecurity<br>Glossary</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="foot-link-top foot-link nav-link" href="#">Company</a>
+                        <a class="foot-link nav-link" href="#">About Abnormal</a>
+                        <a class="foot-link nav-link" href="#">Careers</a>
+                        <a class="foot-link nav-link" href="#">Team</a>
+                        <a class="foot-link nav-link" href="#">Upcoming Events</a>
+                        <a class="foot-link nav-link" href="#">New & Press</a>
+                        <a class="foot-link nav-link" href="#">Abnormal<br>Business School</a>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div id="foot-footer" class="row" style="height: 390px;">
+                <img id="foot-footer-img" src="../IMG/Abnormal/Frame.png">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <h2 class="text-light">Abnormal Precisely<br>Stops Zero-Day Email<br>Attacks</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-4 align-self-center" style="font-size: 12px; color: #FFFFFF;">©2023 Abnormal Security Corp. All rights reserved.</div>
+                        <div class="col-8" id="nav-inform">
+                            <a class="inform-link nav-link" href="#">Responsible Disclosure</a>
+                            <a class="inform-link nav-link" href="#">Trust Center</a>
+                            <a class="inform-link nav-link" href="#">Status</a>
+                            <a class="inform-link nav-link" href="#">Privacy Policy</a>
+                            <a class="inform-link nav-link" href="#">Terms of Use</a>
+                            <a class="inform-link nav-link" href="#">Legal</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
