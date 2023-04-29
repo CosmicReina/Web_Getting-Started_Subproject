@@ -82,3 +82,8 @@ footer{
 .inform-link:hover{
     color: #FFFFFF;
 }
+
+#list>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
