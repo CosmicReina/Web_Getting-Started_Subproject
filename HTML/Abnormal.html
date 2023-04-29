@@ -23,8 +23,6 @@
                     }
                     $("nav").css("background-color", "#FFFFFF");
                     $("nav").css("transition", "0.5s");
-                    $("#navbar").css("background-color", "#FFFFFF");
-                    $("#navbar").css("transition", "0.5s");
                     $(".nav-list").hover(
                         function(){
                             $(this).css("box-shadow", "inset 0px 2px 0px 0px #000000");
@@ -36,6 +34,8 @@
                         });
                     $(".nav-list").css("color", "#000000");
                     $(".nav-list").css("transition", "0.5s");
+                    $("#navbar-nav>span").css("color", "#000000");
+                    $("#navbar-nav>span").css("transition", "0.5s");
                 }
                 else{
                     var header = document.getElementsByTagName("nav")[0];
@@ -44,8 +44,6 @@
                     }
                     $("nav").css("background-color", "transparent");
                     $("nav").css("transition", "0.5s");
-                    $("#navbar").css("background-color", "transparent");
-                    $("#navbar").css("transition", "0.5s");
                     $(".nav-list").hover(
                         function(){
                             $(this).css("box-shadow", "inset 0px 2px 0px 0px #FFFFFF");
@@ -57,6 +55,8 @@
                         });
                     $(".nav-list").css("color", "#FFFFFF");
                     $(".nav-list").css("transition", "0.5s");
+                    $("#navbar-nav>span").css("color", "#FFFFFF");
+                    $("#navbar-nav>span").css("transition", "0.5s");
                 }
             });
             $("#btn-demo").hover(
@@ -198,7 +198,26 @@
             </div>
         </div>
     </div>
-    
+    <div class="container-fluid" style="background-color: #04015C;">
+        <div class="container p-0">
+            <div class="row w-100" style="height: 240px;">
+                <div class="col-md-6 p-0 h-100 d-flex flex-column justify-content-center align-items-start">
+                    <h5 class="" style="color: #b9baed;">
+                        Discover a Fundamentally Different Approach to<br>
+                        Cloud Email Security
+                    </h5>
+                    <h6 class="text-white mt-2 mb-4">
+                        Meet Us at RSA Conference!<br>
+April                   24 - April 27 | Booth #854 - South Expo Hall
+                    </h6>
+                    <input type="button" class="btn d-block" value="Learn more &rarr;" style="color: #000000; background-color: #B9BAED;">
+                </div>
+                <div class="col-md-6 p-0 h-100 d-flex flex-column justify-content-center align-items-center">
+                    <img src="../IMG/Abnormal/rsa.png" width="75%">
+                </div>
+            </div>
+        </div>
+    </div>
     <!--End of Body-->
     <footer>
         <div class="container">
