@@ -34,13 +34,15 @@
                         });
                     $(".nav-list").css("color", "#000000");
                     $(".nav-list").css("transition", "0.5s");
+                    $("#navbar-nav>span").css("color", "#000000");
+                    $("#navbar-nav>span").css("transition", "0.5s");
                 }
                 else{
                     var header = document.getElementsByTagName("nav")[0];
                     if(header.classList.contains("fixed-top") == true){
                         var header = document.getElementsByTagName("nav")[0].classList.remove("fixed-top");
                     }
-                    $("nav").css("background-color", "transparent");
+                    $("nav").css("background-color", "#FFFFFF");
                     $("nav").css("transition", "0.5s");
                     $(".nav-list").hover(
                         function(){
@@ -53,6 +55,8 @@
                         });
                     $(".nav-list").css("color", "#000000");
                     $(".nav-list").css("transition", "0.5s");
+                    $("#navbar-nav>span").css("color", "#000000");
+                    $("#navbar-nav>span").css("transition", "0.5s");
                 }
             });
             $("#btn-demo").hover(
@@ -135,12 +139,56 @@
     <div class="container-fluid" style="position: relative;">
         <div class="container">
             <div class="row w-100 d-flex flex-column justify-content-center align-items-center" style="position: relative; height: 390px; z-index: 1;">
-                <div style="font-size: 48px;">Why Abnormal</div>
-                <h5 class="mt-2 mb-4">Discover a fundamentally different approach to cloud email security.</h5>
-                <input class="btn" type="button" value="See a Demo &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
+                <div style="font-size: 48px; color: #000000;">Why Abnormal</div>
+                <h5 class="mt-2 mb-4" style="font-weight: normal; color: #000000;">Discover a fundamentally different approach to cloud email security.</h5>
+                <input class="btn" type="button" value="See a Demo &rarr;" style="color: #000000; background-color: #FFFFFF;">
             </div>
         </div>
-        <img id="top-background" src="../IMG/Abnormal_Why/Why-Abnormal-Header-Background.jpg" height="390px">
+        <img id="top-background" src="../IMG/Abnormal_Why/Banner.png" height="390px">
+    </div>
+    <div class="container-fluid" style="background-color: #F6F6F9;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="d-block" src="../IMG/Abnormal_Why/Stop.png" width="100%">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <h2>Stops More Attacks</h2>
+                    <p class="pt-3 pb-3">Abnormal Security uses behavioral AI and ML models to learn the behavior of all employees and partners. This approach allows Abnormal to stop the full spectrum of email attacks—credential phishing, business email compromise, vendor invoice fraud, and more—as well as emerging attack types across email and collaboration apps.</p>
+                    <a href="#">Discover the Modern Threat Landscape &rarr;</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <h2>Reduces Total Costs</h2>
+                    <p class="pt-3 pb-3">Abnormal fully automates email security, reducing manual efforts by up to 95%. Organizations can also reduce spend by eliminating redundant secure email gateways, while mitigating the $4 million annual risk of sophisticated and targeted socially-engineered attacks.</p>
+                    <a href="#">Learn How to Reduce Your Spend &rarr;</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="d-block" src="../IMG/Abnormal_Why/Reduce.png" width="100%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="d-block" src="../IMG/Abnormal_Why/Understand.png" width="100%">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <h2>Understands More with a Modern Architecture</h2>
+                    <p class="pt-3 pb-3">Abnormal's modern API architecture allows it to ingest thousands of signals from cloud email platforms, EDR and IAM tools, and other SaaS apps, and offers visibility into internal and external traffic to find threats in the context of relationships and patterns.</p>
+                    <a href="#">See the Abnormal Architecture &rarr;</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <h2>Protects Your Business Today and Tomorrow</h2>
+                    <p class="pt-3 pb-3">Abnormal is designed to stop the threats of the future. Unlike SEGs, Abnormal's modern architecture and behavioral AI allow it to adapt to new threats that cross business platforms. With Abnormal, you can protect your inbound email and collaboration applications like Slack, Microsoft Teams, and Zoom.</p>
+                    <a href="#">Discover How to Secure Your Future &rarr;</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="d-block" src="../IMG/Abnormal_Why/Protect.png" width="100%">
+                </div>
+            </div>
+        </div>
     </div>
     <!--End of Body-->
     <footer>
