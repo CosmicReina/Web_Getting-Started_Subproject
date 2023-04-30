@@ -82,3 +82,16 @@ footer{
 .inform-link:hover{
     color: #FFFFFF;
 }
+
+#difficult{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+}
+
+#how{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 10px;
+}
