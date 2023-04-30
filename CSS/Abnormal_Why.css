@@ -5,12 +5,12 @@ header{
 
 nav{
     margin: 0 auto;
-    background-color: #BEF3E3;
+    background-color: #FFFFFF;
 }
 
 body{
     margin: 0 auto;
-    background-color: #BEF3E3;
+    background-color: #55B387;
 }
 
 footer{
@@ -84,17 +84,16 @@ footer{
 }
 
 #top-background{
-    position: relative;
+    width: 100%;
+    top: 0px;
+    position: absolute;
     z-index: 0;
+    margin: 0 auto;
 }
 
-#panel-one{
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#grid-why{
     width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
 }
