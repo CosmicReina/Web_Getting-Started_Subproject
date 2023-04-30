@@ -85,26 +85,25 @@
                     $(this).css("box-shadow", "none");
                     $(this).css("transition", "0.5s");
                 });
+            $('.carousel').carousel({
+                interval: false
+            })
+            $("#item-0").hover(function(){
+                $('.carousel').carousel(0)
+            });
+            $("#item-1").hover(function(){
+                $('.carousel').carousel(1)
+            });
+            $("#item-2").hover(function(){
+                $('.carousel').carousel(2)
+            });
+            $("#item-3").hover(function(){
+                $('.carousel').carousel(3)
+            });
         });
     </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="d-flex flex-row justify-content-center align-items-center" 
-                style="height: 48px;">
-                <div class="text-light">
-                    Abnormal and CloudStrike launch strageic partnership.
-                </div>
-                <div class="ml-2 mr-2 text-light"> | </div>
-                <div>
-                    <a href="#" 
-                    style="color: #B2F5E2;">Learn more &rarr;
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
     <nav>
         <div id="container-nav" class="container">
             <div class="row w-100" style="height: 80px;">
@@ -136,7 +135,126 @@
         </div>
     </nav>
     <!--Body-->
-
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 170px;">
+                <h2>Resources Center</h2>
+                <h6>Discover the latest research and new insights from Abnormal.</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row mt-5 mb-5" style="height: 420px;">
+                <div class="col-md-8 h-100">
+                    <div id="top-carousel" class="carousel slide h-100" data-ride="carousel">
+                        <div class="carousel-inner h-100">
+                            <div class="carousel-item active h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir1.avif" class="d-block" height="90%">
+                                    <div class="d-flex flex-column justify-content-start align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Email Security">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Tools">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 20px;">
+                                            2023 Gartner® Market Guide for Email Security
+                                        </a>
+                                        <p>
+                                            Abnormal's fundamentally different approach to cloud email security provides the best protection against existing and emerging attack techniques.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 18px;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir2.avif" class="d-block" height="90%">
+                                    <div class="d-flex flex-column justify-content-start align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Abnormal Platform">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Tools">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 20px;">
+                                            ROI Calculator: Discover Your Abnormal Return on Investment
+                                        </a>
+                                        <p>
+                                            Discover the ROI you can experience with Abnormal Security.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 18px;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir3.avif" class="d-block" height="90%">
+                                    <div class="d-flex flex-column justify-content-start align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Email Security">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Threat Report">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 20px;">
+                                            H1 2023: “Read” Alert: Data Shows 28% of BEC Attacks Opened by Employees
+                                        </a>
+                                        <p>
+                                            Abnormal's latest report on business email compromise trends and statistics finds that employees open 28% of attacks and reply to 15% of them.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 18px;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir4.avif" class="d-block" height="90%">
+                                    <div class="d-flex flex-column justify-content-start align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Abnormal Platform">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Analyst Research">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 20px;">
+                                            Forrester Total Economic Impact™ Study of Abnormal Security
+                                        </a>
+                                        <p>
+                                            Learn how investing in Abnormal Security can yield a 278% ROI within 3 years and help your organization avoid $4 million in losses from BEC.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 18px;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 h-100 d-flex flex-column justify-content-between align-items-start">
+                    <div id="top" class="h-100">
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir1.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-0">2023 Gartner® Market Guide for Email Security</a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir2.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-1">ROI Calculator: Discover Your Abnormal Return on Investment</a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir3.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-2">H1 2023: “Read” Alert: Data Shows 28% of BEC Attacks Opened by Employees</a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir4.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-3">Forrester Total Economic Impact™ Study of Abnormal Security</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--End of Body-->
     <footer>
         <div class="container">
