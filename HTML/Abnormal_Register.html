@@ -85,6 +85,10 @@
                     $(this).css("box-shadow", "none");
                     $(this).css("transition", "0.5s");
                 });
+            $("#demo-video").click(function() {
+                var video = document.getElementById("#demo-video");
+                video.pause();
+            });
         });
     </script>
 </head>
@@ -444,9 +448,35 @@
                             </article>
                         </div>
                         <div class="row pt-3 pb-4">
-                            <input class="btn" type="button" value="See a Demo →" style="color: #FFFFFF; background-color: #000000;">
+                            <input class="btn" type="button" value="See a Demo &rarr;" style="color: #FFFFFF; background-color: #000000;">
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #002B49;">
+        <div class="container p-0">
+            <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 140px;">
+                <h2 class="text-light">Watch Product Demos</h2>
+                <h4 class="text-light">Not ready to schedule a demo? See the product in action.</h4>
+            </div>
+            <div class="row pb-5 d-flex flex-row align-items-center" style="height: 500px;">
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
+                    <img class="d-block" src="../IMG/Abnormal_Why/Purple.png">
+                    <h4 class="text-light">
+                        Inbound Email Security
+                    </h4>
+                    <p class="text-light pt-2" style="width: 100%;">
+                        Discover how Abnormal protects your employees from the full spectrum of targeted email threats including phishing, business email compromise, ransomware, supply chain fraud, spam, and graymail.
+                    </p>
+                    <input class="btn mt-1" type="button" value="View Additional Demos &rarr;" style="color: #000000; background-color: #A7DED2;">
+                    <input class="btn mt-3" type="button" value="See a LIVE Demo at 4/20 &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
+                </div>
+                <div class="col-md-8">
+                    <video id="demo-video" width="100%" controls>
+                        <source src="../VIDEO/Abnormal_Register/Demo.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
