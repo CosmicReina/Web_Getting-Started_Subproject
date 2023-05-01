@@ -105,33 +105,39 @@
             </div>
         </div>
     </header>
-    <nav>
-        <div id="container-nav" class="container">
-            <div class="row w-100" style="height: 80px;">
-                <div class="col-md-2 d-flex flex-row justify-content-start align-items-center">
-                    <a class="w-100" href="../HTML/Abnormal.html">
-                        <img src="../IMG/Abnormal/Abnormal.png" width="166px">
-                    </a>
-                </div>
-                <div 
-                id="navbar-nav" 
-                class="navbar-expand-md col-md-10 d-flex flex-row justify-content-end align-items-center">
-                    <a class="nav-list nav-link" href="#">Why Abnormal</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Products</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Solutions</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Customer</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Partners</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Resources</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Careers</a>
-                    <a class="pl-md-3 pr-md-3 d-block" href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
-                    <input id="btn-demo" class="btn d-block" value="See a Demo" type="button" style="border-radius: 0px 0px 0px 0px;">
-                </div>
+    <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3">
+        <div class="container">
+            <a class="my-auto mr-3" href="Abnormal.html"><img src="../IMG/Abnormal/Abnormal.png" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-3 pt-md-0" id="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-auto my-auto">
+                        <a class="nav-list nav-link text-center" href="Abnormal_Why.html">Why Abnormal</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="Abnormal_Product.html">Products</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Customer</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="Abnormal_Resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto pl-1">
+                        <input id="btn-demo" class="btn" value="See a Demo" type="button" style="border-radius: 0px 0px 0px 0px;" onclick="window.location.href = 'Abnormal_Register.html'">
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="pl-3 pr-3 d-block" href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -139,17 +145,17 @@
     <div class="container-fluid" style="background-color: #F6F6F9;">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 d-flex flex-column justify-content-center align-items-start">
-                    <h2>
+                <div class="col-md-5 col-sm-12 col-12 pb-4 d-flex flex-column justify-content-center align-items-start">
+                    <h2 class="text-center w-100">
                         Inbound Email Security
                     </h2>
                     <h5 style="font-weight: normal;">
                         Stop the full spectrum of email attacks with behavioral AI.
                     </h5>
-                    <input class="btn mt-1" type="button" value="Watch Demo &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
-                    <input class="btn mt-1" type="button" value="Get the CISO Guide to BEC &rarr;" style="color: #000000; background-color: #B9BAED;">
+                    <input class="btn mt-1 w-100 mx-auto" type="button" value="Watch Demo &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
+                    <input class="btn mt-1 w-100 mx-auto" type="button" value="Get the CISO Guide to BEC &rarr;" style="color: #000000; background-color: #B9BAED;">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col-sm-12 col-12">
                     <img src="../IMG/Abnormal_Product/Top.png" alt="" width="100%">
                 </div>
             </div>
@@ -158,7 +164,7 @@
     <div class="container-fluid" style="background-color: #924E8C;">
         <div class="container p-0">
             <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 100px;">
-                <h2 class="text-light">
+                <h2 class="text-light text-center">
                     Email Attacks Have Increased in Sophistication and Severity
                 </h2>
             </div>
@@ -168,7 +174,7 @@
                         <img src="../IMG/Abnormal_Product/Costly.png" class="d-block">
                     </div>
                     <div class="h-50 d-flex flex-column justify-content-start align-items-center">
-                        <h5>Costly</h5>
+                        <h5 class="text-center">Costly</h5>
                         <p class="text-center pt-2" style="width: 90%;">The average business email compromise attack costs organizations $125,000.</p>
                     </div>
                 </div>
@@ -177,7 +183,7 @@
                         <img src="../IMG/Abnormal_Product/Frequent.png" class="d-block">
                     </div>
                     <div class="h-50 d-flex flex-column justify-content-start align-items-center">
-                        <h5>Frequent</h5>
+                        <h5 class="text-center">Frequent</h5>
                         <p class="text-center pt-2" style="width: 90%;">89% of companies see a supply chain compromise attack each week.</p>
                     </div>
                 </div>
@@ -186,7 +192,7 @@
                         <img src="../IMG/Abnormal_Product/Difficult.png" class="d-block">
                     </div>
                     <div class="h-50 d-flex flex-column justify-content-start align-items-center">
-                        <h5>Difficult to Detect</h5>
+                        <h5 class="text-center">Difficult to Detect</h5>
                         <p class="text-center pt-2" style="width: 90%;">It takes an average of 308 days to identify and contain a breach.</p>
                     </div>
                 </div>
@@ -196,24 +202,24 @@
     <div class="container-fluid" style="background-color: #F6F6F9;">
         <div class="container">
             <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 100px;">
-                <h2>
+                <h2 class="text-center">
                     How Abnormal Stops the Full Spectrum of Email Attacks
                 </h2>
             </div>
             <div class="row pb-4">
                 <div class="col-md-6">
-                    <img src="../IMG/Abnormal_Product/Detects.png" width="100%">
+                    <img src="../IMG/Abnormal_Product/Detects.png" width="100%" style="max-width: 600px; max-height: 600px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
-                    <h2>Detects Anomalous Behavior</h2>
-                    <p class="pt-2">Abnormal detects never before seen attacks with no traditional indicators of compromise by analyzing tens of thousands of unique signals to detect anomalies in email messages.</p>
+                    <h2 class="text-center text-md-left w-100 pt-3 pt-md-0">Detects Anomalous Behavior</h2>
+                    <p class="pt-2 text-center text-md-left">Abnormal detects never before seen attacks with no traditional indicators of compromise by analyzing tens of thousands of unique signals to detect anomalies in email messages.</p>
                 </div>
             </div>
             <hr style="width: 100%; border-width: 1px; border-color: #97A0B5;">
             <div class="row pb-4">
                 <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
-                    <h2>Remediates Malicious Emails to Prevent End-User Engagement</h2>
-                    <p class="pt-2">Abnormal automatically remediates malicious messages within milliseconds, removing the possibility of end-user engagement.</p>
+                    <h2 class="text-center text-md-left w-100 pt-3 pt-md-0">Remediates Malicious Emails to Prevent End-User Engagement</h2>
+                    <p class="pt-2 text-center text-md-left">Abnormal automatically remediates malicious messages within milliseconds, removing the possibility of end-user engagement.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="../IMG/Abnormal_Product/Remediates.png" width="100%">
@@ -225,8 +231,8 @@
                     <img src="../IMG/Abnormal_Product/Explains.png" width="100%">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
-                    <h2>Explains Complex Attacks in Simple Language</h2>
-                    <p class="pt-2">Abnormal provides searchable logs of every email message it categorizes with an in-depth Threat Log. Administrators can review trends, deep dive into attacks, or use search and respond capabilities to remediate misdirected messages.</p>
+                    <h2 class="text-center text-md-left w-100 pt-3 pt-md-0">Explains Complex Attacks in Simple Language</h2>
+                    <p class="pt-2 text-center text-md-left">Abnormal provides searchable logs of every email message it categorizes with an in-depth Threat Log. Administrators can review trends, deep dive into attacks, or use search and respond capabilities to remediate misdirected messages.</p>
                 </div>
             </div>
         </div>
@@ -234,7 +240,7 @@
     <div class="container-fluid pb-5" style="background-color: #241544;">
         <div class="container">
             <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 100px;">
-                <h1 class="text-light">
+                <h1 class="text-light text-center">
                     See How Inbound Email Security Works
                 </h1>
             </div>
@@ -248,59 +254,49 @@
                 <div class="">
                     <img src="../IMG/Abnormal_Product/v3.png" width="100%">
                 </div>
-                <div class="" style="height: 240px; background-color: #6863F2;">
-                    <div class="d-flex flex-column justify-content-end align-items-center" style="height: 35%;">
-                        <h5 style="color: #ADEDE3;">
-                            BEC Detection
-                        </h5>
-                    </div>
-                    <div class="d-flex flex-column justify-content-start align-items-center" style="height: 65%;">
-                        <p class="text-center text-light pt-1" style="width: 85%;">
-                            Stops business email compromise attacks with behavioral models built on your organization's relationship and communication patterns.
-                        </p>
-                    </div>
+                <div class="p-3" style="height: auto; background-color: #6863F2;">
+                    <h5 class="text-center" style="color: #ADEDE3;">
+                        BEC Detection
+                    </h5>
+                    <p class="text-center text-light pt-1" style="width: 100%;">
+                        Stops business email compromise attacks with behavioral models built on your organization's relationship and communication patterns.
+                    </p>
                 </div>
-                <div class="" style="height: 240px; background-color: #6863F2;">
-                    <div class="d-flex flex-column justify-content-end align-items-center" style="height: 35%;">
-                        <h5 style="color: #ADEDE3;">
-                            Behavioral AI
-                        </h5>
-                    </div>
-                    <div class="d-flex flex-column justify-content-start align-items-center" style="height: 65%;">
-                        <p class="text-center text-light pt-1" style="width: 85%;">
-                            Baselines known-good behavior across every employee and every vendor to understand normal behavior.
-                        </p>
-                    </div>
+                <div class="p-3" style="height: auto; background-color: #6863F2;">
+                    <h5 class="text-center" style="color: #ADEDE3;">
+                        Behavioral AI
+                    </h5>
+                    <p class="text-center text-light pt-1" style="width: 100%;">
+                        Baselines known-good behavior across every employee and every vendor to understand normal behavior.
+                    </p>
                 </div>
-                <div class="" style="height: 240px; background-color: #6863F2;">
-                    <div class="d-flex flex-column justify-content-end align-items-center" style="height: 35%;">
-                        <h5 style="color: #ADEDE3;">
-                            BEC Detection
-                        </h5>
-                    </div>
-                    <div class="d-flex flex-column justify-content-start align-items-center" style="height: 65%;">
-                        <p class="text-center text-light pt-1" style="width: 85%;">
-                            Monitors each vendor for risk indicators and automatically adapts protection to block attacks from compromised partners.
-                        </p>
-                    </div>
+                <div class="p-3" style="height: auto; background-color: #6863F2;">
+                    <h5 class="text-center" style="color: #ADEDE3;">
+                        VEC Detection
+                    </h5>
+                    <p class="text-center text-light pt-1" style="width: 100%;">
+                        Monitors each vendor for risk indicators and automatically adapts protection to block attacks from compromised partners.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="position: relative; background-color: #955C92; z-index: -2;">
+    <div class="container-fluid" style="background-color: #924E8C;">
         <div class="container">
-            <div class="row" style="height: 550px;">
-                <div class="col-md-3 col-xl-3 d-flex flex-column justify-content-center align-items-end h-100" style="background-color: #924E8C;">
-                    <img class="d-block mr-3" src="../IMG/Abnormal_Product/ADT.png">
-                    <input class="btn mt-4 mr-3" type="button" value="Read Case Study &rarr;" style="color: #000000; background-color: #B2F5E2;">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3" style="height: 500px;">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <img class="d-block" src="../IMG/Abnormal_Product/ADT.png">
+                        <input class="btn mt-4" type="button" value="Read Case Study &rarr;" style="color: #000000; background-color: #B2F5E2;">
+                    </div>
                 </div>
-                <div class="col-md-9 col-xl-9 h-100">
-                    <div class="row h-100" style="padding-top: 40px;">
+                <div class="col-12 col-sm-12 col-md-9 col-xl-9 pt-3" style="position: relative; height: 500px;">
+                    <div class="d-flex flex-row justify-content-center align-items-start" style="position: relative; z-index: 2;">
                         <h1 class="text-light text-center" style="width: 10%;">
                             ""
                         </h1>
                         <div class="d-flex flex-column justify-content-start align-items-start h-100" style="width: 90%;">
-                            <p class="text-light" style="font-weight: normal; font-size: 32px;">
+                            <p class="text-light" style="font-weight: normal; font-size: 3vw;">
                                 The realization of value was almost immediate—real-time visibility into attacks going on in the environment that are bypassing the traditional defenses. That context allowed ADT to start identifying threat trends while blocking them from employee inboxes.”
                             </p>
                             <h5 class="text-light pt-3">
@@ -308,20 +304,17 @@
                             </h5>
                         </div>
                     </div>
+                    <div class="h-100" style="position: absolute; top: 0; z-index: 1;">
+                        <img src="../IMG/Abnormal_Product/Background.png" width="100%" height="100%">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row w-100 p-0" style="height: 550px; position: absolute; z-index: -1; top: 0px;">
-            <div class="col-md-3 col-xl-3 h-100" style="background-color: #924E8C;"></div>
-            <div class="col-md-9 col-xl-9 p-0 h-100">
-                <img class="" src="../IMG/Abnormal_Product/Background.png" width="100%" height="100%">
-            </div>
-        </div>
     </div>
-    <div class="container-fluid" style="background-color: #DBE2E9;">
+    <div class="container-fluid" style="background-color: #DBE2E9; position: relative; z-index: 3;">
         <div class="container">
-            <div class="row" style="height: 420px;">
-                <div class="col-md-6 d-flex flex-column justify-content-start align-items-start pt-5 pl-2">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12 d-flex flex-column justify-content-start align-items-start pt-5 pl-2" style="height: 420px;">
                     <p style="font-size: 32px;">
                         Stop Inbound Email Attacks Before They Reach Your Employees
                     </p>
@@ -330,7 +323,7 @@
                     </h5>
                     <input class="d-block btn" type="button" value="See a Demo &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
                 </div>
-                <div class="col-md-6 h-100 d-flex flex-column justify-content-end">
+                <div class="col-md-6 col-sm-12 col-12 d-flex flex-column justify-content-end" style="height: 420px;">
                     <img class="d-block" src="../IMG/Abnormal/Calculation.png" width="130%">
                 </div>
             </div>
@@ -339,85 +332,83 @@
     <!--End of Body-->
     <footer>
         <div class="container">
-            <div class="row flex-column">
-                <div class="row" style="width: 100%; height: 700px; position: relative; z-index: 1;">
-                    <div class="col-md-12 d-flex flex-row justify-content-around align-items-start">
-                        <div class="foot-item">
-                            <img id="abnormal-small" src="../IMG/Abnormal/Abnormal-small.png" width="100%">
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Why Abnormal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Products</a>
-                            <a class="nav-link" href="#">All Products</a>
-                            <a class="nav-link" href="#">Inbound Email<br>Security</a>
-                            <a class="nav-link" href="#">Abuse Emailbot<br>Automation</a>
-                            <a class="nav-link" href="#">Account<br>Takeover<br>Protection</a>
-                            <a class="nav-link" href="#">Email<br>Productivity</a>
-                            <a class="nav-link" href="#">Security<br>Posture<br>Management</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Solutions</a>
-                            <a class="nav-link" href="#">For Microsoft<br>Office</a>
-                            <a class="nav-link" href="#">For Google<br>Wordspace</a>
-                            <a class="nav-link" href="#">Credential<br>Phishing</a>
-                            <a class="nav-link" href="#">Business Email<br>Compromise</a>
-                            <a class="nav-link" href="#">Malware &<br>Ransomware</a>
-                            <a class="nav-link" href="#">Unwanted Mail</a>
-                            <a class="nav-link" href="#">Email Platform<br>Attack</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Customers</a>
-                            <a class="nav-link" href="#">Customer Stories</a>
-                            <a class="nav-link" href="#">Gartner Peer<br>Insights</a>
-                            <a class="nav-link" href="#">Support Portal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Partners</a>
-                            <a class="nav-link" href="#">Microsoft<br>Partnership</a>
-                            <a class="nav-link" href="#">Technology<br>Partners</a>
-                            <a class="nav-link" href="#">Partner Portal</a>
-                            <a class="nav-link" href="#">CrowdStrike +<br>Abnormal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Resources</a>
-                            <a class="nav-link" href="#">All Resources</a>
-                            <a class="nav-link" href="#">Abnormal Blog</a>
-                            <a class="nav-link" href="#">Abnormal<br>Intelligence</a>
-                            <a class="nav-link" href="#">Cybersecurity<br>Glossary</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Company</a>
-                            <a class="nav-link" href="#">About Abnormal</a>
-                            <a class="nav-link" href="#">Careers</a>
-                            <a class="nav-link" href="#">Team</a>
-                            <a class="nav-link" href="#">Upcoming Events</a>
-                            <a class="nav-link" href="#">New & Press</a>
-                            <a class="nav-link" href="#">Abnormal<br>Business School</a>
-                        </div>
+            <div class="row" style="width: 100%; height: 700px; position: relative; z-index: 1;">
+                <div class="col-md-12 d-flex flex-row justify-content-around align-items-start">
+                    <div class="foot-item">
+                        <img id="abnormal-small" src="../IMG/Abnormal/Abnormal-small.png" width="100%">
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Why Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Products</a>
+                        <a class="nav-link" href="#">All Products</a>
+                        <a class="nav-link" href="#">Inbound Email<br>Security</a>
+                        <a class="nav-link" href="#">Abuse Emailbot<br>Automation</a>
+                        <a class="nav-link" href="#">Account<br>Takeover<br>Protection</a>
+                        <a class="nav-link" href="#">Email<br>Productivity</a>
+                        <a class="nav-link" href="#">Security<br>Posture<br>Management</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Solutions</a>
+                        <a class="nav-link" href="#">For Microsoft<br>Office</a>
+                        <a class="nav-link" href="#">For Google<br>Wordspace</a>
+                        <a class="nav-link" href="#">Credential<br>Phishing</a>
+                        <a class="nav-link" href="#">Business Email<br>Compromise</a>
+                        <a class="nav-link" href="#">Malware &<br>Ransomware</a>
+                        <a class="nav-link" href="#">Unwanted Mail</a>
+                        <a class="nav-link" href="#">Email Platform<br>Attack</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Customers</a>
+                        <a class="nav-link" href="#">Customer Stories</a>
+                        <a class="nav-link" href="#">Gartner Peer<br>Insights</a>
+                        <a class="nav-link" href="#">Support Portal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Partners</a>
+                        <a class="nav-link" href="#">Microsoft<br>Partnership</a>
+                        <a class="nav-link" href="#">Technology<br>Partners</a>
+                        <a class="nav-link" href="#">Partner Portal</a>
+                        <a class="nav-link" href="#">CrowdStrike +<br>Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Resources</a>
+                        <a class="nav-link" href="#">All Resources</a>
+                        <a class="nav-link" href="#">Abnormal Blog</a>
+                        <a class="nav-link" href="#">Abnormal<br>Intelligence</a>
+                        <a class="nav-link" href="#">Cybersecurity<br>Glossary</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Company</a>
+                        <a class="nav-link" href="#">About Abnormal</a>
+                        <a class="nav-link" href="#">Careers</a>
+                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#">Upcoming Events</a>
+                        <a class="nav-link" href="#">New & Press</a>
+                        <a class="nav-link" href="#">Abnormal<br>Business School</a>
                     </div>
                 </div>
-                <div id="footer-foot" class="row" style="height: 390px;">
-                    <img id="footer-foot-img" src="../IMG/Abnormal/Frame.png">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <h2 class="text-light">Abnormal Precisely<br>Stops Zero-Day Email<br>Attacks</h2>
+                <img id="footer-foot-img" src="../IMG/Abnormal/Frame.png">
+            </div>
+            <div id="footer-foot" class="row" style="height: 390px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h2 class="text-light">Abnormal Precisely<br>Stops Zero-Day Email<br>Attacks</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4 d-flex flex-row justify-content-start align-items-center p-0" style="font-size: 14px; color: #FFFFFF;">
+                            <div class="inform-link">
+                                &#169;2023 Abnormal Security Corp. All rights reserved.
+                            </div>
                         </div>
-                        <div class="row mt-4">
-                            <div class="col-md-4 d-flex flex-row justify-content-start align-items-center p-0" style="font-size: 14px; color: #FFFFFF;">
-                                <div class="inform-link">
-                                    &#169;2023 Abnormal Security Corp. All rights reserved.
-                                </div>
-                            </div>
-                            <div class="col-md-8 d-flex flex-row justify-content-end align-items-start">
-                                <a class="inform-link nav-link" href="#">Responsible Disclosure</a>
-                                <a class="inform-link nav-link" href="#">Trust Center</a>
-                                <a class="inform-link nav-link" href="#">Status</a>
-                                <a class="inform-link nav-link" href="#">Privacy Policy</a>
-                                <a class="inform-link nav-link" href="#">Terms of Use</a>
-                                <a class="inform-link nav-link" href="#">Legal</a>
-                            </div>
+                        <div class="col-md-8 d-flex flex-row justify-content-end align-items-start">
+                            <a class="inform-link nav-link" href="#">Responsible Disclosure</a>
+                            <a class="inform-link nav-link" href="#">Trust Center</a>
+                            <a class="inform-link nav-link" href="#">Status</a>
+                            <a class="inform-link nav-link" href="#">Privacy Policy</a>
+                            <a class="inform-link nav-link" href="#">Terms of Use</a>
+                            <a class="inform-link nav-link" href="#">Legal</a>
                         </div>
                     </div>
                 </div>

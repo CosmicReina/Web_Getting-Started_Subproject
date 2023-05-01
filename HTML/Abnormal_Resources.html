@@ -85,140 +85,883 @@
                     $(this).css("box-shadow", "none");
                     $(this).css("transition", "0.5s");
                 });
+            $('.carousel').carousel({
+                interval: false
+            })
+            $("#item-0").hover(function(){
+                $('.carousel').carousel(0)
+            });
+            $("#item-1").hover(function(){
+                $('.carousel').carousel(1)
+            });
+            $("#item-2").hover(function(){
+                $('.carousel').carousel(2)
+            });
+            $("#item-3").hover(function(){
+                $('.carousel').carousel(3)
+            });
         });
     </script>
 </head>
 <body>
-    <header>
+    <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3">
         <div class="container">
-            <div class="d-flex flex-row justify-content-center align-items-center" 
-                style="height: 48px;">
-                <div class="text-light">
-                    Abnormal and CloudStrike launch strageic partnership.
-                </div>
-                <div class="ml-2 mr-2 text-light"> | </div>
-                <div>
-                    <a href="#" 
-                    style="color: #B2F5E2;">Learn more &rarr;
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div id="container-nav" class="container">
-            <div class="row w-100" style="height: 80px;">
-                <div class="col-md-2 d-flex flex-row justify-content-start align-items-center">
-                    <a class="w-100" href="../HTML/Abnormal.html">
-                        <img src="../IMG/Abnormal/Abnormal.png" width="166px">
-                    </a>
-                </div>
-                <div 
-                id="navbar-nav" 
-                class="navbar-expand-md col-md-10 d-flex flex-row justify-content-end align-items-center">
-                    <a class="nav-list nav-link" href="#">Why Abnormal</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Products</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Solutions</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Customer</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Partners</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Resources</a>
-                    <span style="font-size: 24px; color: #FFFFFF;">/</span>
-                    <a class="nav-list nav-link" href="#">Careers</a>
-                    <a class="pl-md-3 pr-md-3 d-block" href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
-                    <input id="btn-demo" class="btn d-block" value="See a Demo" type="button" style="border-radius: 0px 0px 0px 0px;">
-                </div>
+            <a class="my-auto mr-3" href="Abnormal.html"><img src="../IMG/Abnormal/Abnormal.png" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-3 pt-md-0" id="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-auto my-auto">
+                        <a class="nav-list nav-link text-center" href="Abnormal_Why.html">Why Abnormal</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="Abnormal_Product.html">Products</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Customer</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="nav-list nav-link" href="Abnormal_Resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item ml-auto my-auto pl-1">
+                        <input id="btn-demo" class="btn" value="See a Demo" type="button" style="border-radius: 0px 0px 0px 0px;" onclick="window.location.href = 'Abnormal_Register.html'">
+                    </li>
+                    <li class="nav-item ml-auto my-auto">
+                        <a class="pl-3 pr-3 d-block" href="#"><img src="../IMG/Abnormal/Search.png" height="50%"></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
     <!--Body-->
-
-    <!--End of Body-->
-    <footer>
+    <div class="container-fluid">
         <div class="container">
-            <div class="row flex-column">
-                <div class="row" style="width: 100%; height: 700px; position: relative; z-index: 1;">
-                    <div class="col-md-12 d-flex flex-row justify-content-around align-items-start">
-                        <div class="foot-item">
-                            <img id="abnormal-small" src="../IMG/Abnormal/Abnormal-small.png" width="100%">
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Why Abnormal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Products</a>
-                            <a class="nav-link" href="#">All Products</a>
-                            <a class="nav-link" href="#">Inbound Email<br>Security</a>
-                            <a class="nav-link" href="#">Abuse Emailbot<br>Automation</a>
-                            <a class="nav-link" href="#">Account<br>Takeover<br>Protection</a>
-                            <a class="nav-link" href="#">Email<br>Productivity</a>
-                            <a class="nav-link" href="#">Security<br>Posture<br>Management</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Solutions</a>
-                            <a class="nav-link" href="#">For Microsoft<br>Office</a>
-                            <a class="nav-link" href="#">For Google<br>Wordspace</a>
-                            <a class="nav-link" href="#">Credential<br>Phishing</a>
-                            <a class="nav-link" href="#">Business Email<br>Compromise</a>
-                            <a class="nav-link" href="#">Malware &<br>Ransomware</a>
-                            <a class="nav-link" href="#">Unwanted Mail</a>
-                            <a class="nav-link" href="#">Email Platform<br>Attack</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Customers</a>
-                            <a class="nav-link" href="#">Customer Stories</a>
-                            <a class="nav-link" href="#">Gartner Peer<br>Insights</a>
-                            <a class="nav-link" href="#">Support Portal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Partners</a>
-                            <a class="nav-link" href="#">Microsoft<br>Partnership</a>
-                            <a class="nav-link" href="#">Technology<br>Partners</a>
-                            <a class="nav-link" href="#">Partner Portal</a>
-                            <a class="nav-link" href="#">CrowdStrike +<br>Abnormal</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Resources</a>
-                            <a class="nav-link" href="#">All Resources</a>
-                            <a class="nav-link" href="#">Abnormal Blog</a>
-                            <a class="nav-link" href="#">Abnormal<br>Intelligence</a>
-                            <a class="nav-link" href="#">Cybersecurity<br>Glossary</a>
-                        </div>
-                        <div class="foot-item">
-                            <a class="nav-link foot-link-top" href="#">Company</a>
-                            <a class="nav-link" href="#">About Abnormal</a>
-                            <a class="nav-link" href="#">Careers</a>
-                            <a class="nav-link" href="#">Team</a>
-                            <a class="nav-link" href="#">Upcoming Events</a>
-                            <a class="nav-link" href="#">New & Press</a>
-                            <a class="nav-link" href="#">Abnormal<br>Business School</a>
+            <div class="row d-flex flex-column justify-content-center align-items-center" style="height: 170px;">
+                <h2 class="text-center">Resources Center</h2>
+                <h6 class="text-center">Discover the latest research and new insights from Abnormal.</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8" style="height: 420px;">
+                    <div id="top-carousel" class="carousel slide h-100" data-ride="carousel">
+                        <div class="carousel-inner h-100">
+                            <div class="carousel-item active h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir2.avif" class="d-block col-6 col-sm-6" width="100%">
+                                    <div class="d-flex flex-column justify-content-center align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Email Security">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Analyst Research">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 2vw;">
+                                            ROI Calculator: Discover Your Abnormal Return on Investment
+                                        </a>
+                                        <p style="font-size: 1.5vw;">
+                                            Discover the ROI you can experience with Abnormal Security.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 1vw;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir1.avif" class="d-block col-6 col-sm-6" width="100%">
+                                    <div class="d-flex flex-column justify-content-center align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Abnormal Platform">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Tools">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 2vw;">
+                                            H1 2023: “Read” Alert: Data Shows 28% of BEC Attacks Opened by Employees
+                                        </a>
+                                        <p style="font-size: 1.5vw;">
+                                            Abnormal's latest report on business email compromise trends and statistics finds that employees open 28% of attacks and reply to 15% of them.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 1vw;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir1.avif" class="d-block col-6 col-sm-6" width="100%">
+                                    <div class="d-flex flex-column justify-content-center align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Email Security">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Threat Reports">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 2vw;">
+                                            Forrester Total Economic Impact™ Study of Abnormal Security
+                                        </a>
+                                        <p style="font-size: 1.5vw;">
+                                            Learn how investing in Abnormal Security can yield a 278% ROI within 3 years and help your organization avoid $4 million in losses from BEC.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 1vw;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <div class="d-flex flex-row justify-content-between align-items-center h-100">
+                                    <img src="../IMG/Abnormal_Resources/Fir1.avif" class="d-block col-6 col-sm-6" width="100%">
+                                    <div class="d-flex flex-column justify-content-center align-items-start ml-3 carousel-instance" style="height: 90%;">
+                                        <div>
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #000000; background-color: #6863F2;" value="Abnormal Platform">
+                                            <input type="button" class="btn p-2" style="font-size: 12px; color: #FFFFFF; background-color: #924E8C;" value="Analyst Research">
+                                        </div>
+                                        <a href="#" class="top-link d-block" style="font-size: 2vw;">
+                                            2023 Gartner® Market Guide for Email Security
+                                        </a>
+                                        <p style="font-size: 1.5vw;">
+                                            Abnormal's fundamentally different approach to cloud email security provides the best protection against existing and emerging attack techniques.
+                                        </p>
+                                        <a href="#" class="top-link d-block" style="font-size: 1vw;">
+                                            &rarr; Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="footer-foot" class="row" style="height: 390px;">
-                    <img id="footer-foot-img" src="../IMG/Abnormal/Frame.png">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <h2 class="text-light">Abnormal Precisely<br>Stops Zero-Day Email<br>Attacks</h2>
+                <div class="col-12 col-sm-12 col-md-4" style="height: 420px;">
+                    <div id="top" class="row h-100">
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir1.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-0">2023 Gartner® Market Guide for Email Security</a>
                         </div>
-                        <div class="row mt-4">
-                            <div class="col-md-4 d-flex flex-row justify-content-start align-items-center p-0" style="font-size: 14px; color: #FFFFFF;">
-                                <div class="inform-link">
-                                    &#169;2023 Abnormal Security Corp. All rights reserved.
-                                </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir2.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-1">ROI Calculator: Discover Your Abnormal Return on Investment</a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir3.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-2">H1 2023: “Read” Alert: Data Shows 28% of BEC Attacks Opened by Employees</a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start align-items-center">
+                            <img src="../IMG/Abnormal_Resources/Fir4.avif" height="100%">
+                            <a class="pl-3 top-link" href="#" id="item-3">Forrester Total Economic Impact™ Study of Abnormal Security</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-12 d-flex flex-row justify-content-start align-items-center h-100">
+                    <select class="form-control d-block" style="width: 30%;" name="type" id="">
+                        <option value="" disabled selected hidden>Filler by type</option>
+                        <option value="Analyst Research">Analyst Research</option>
+                        <option value="Threat Reports">Threat Reports</option>
+                        <option value="Data Sheets">Data Sheets</option>
+                        <option value="White Papers">White Papers</option>
+                        <option value="Customer Stories">Customer Stories</option>
+                        <option value="Webinars">Webinars</option>
+                        <option value="Product Demos">Product Demos</option>
+                        <option value="Industry Briefs">Industry Briefs</option>
+                        <option value="Videos">Videos</option>
+                        <option value="Tools">Tools</option>
+                    </select>
+                    <div class="" style="width: 5%;"></div>
+                    <select class="form-control d-block" style="width: 30%;" name="type" id="">
+                        <option value="" disabled selected hidden>Filler by topic</option>
+                        <option value="">Abnormal Platform</option>
+                        <option value="">Account Takeover</option>
+                        <option value="">Business Email Compromise</option>
+                        <option value="">Email Security</option>
+                        <option value="">Microsoft 365</option>
+                        <option value="">Ransomware</option>
+                        <option value="">Threat Intel</option>
+                        <option value="">Supply Chain Compromise</option>
+                        <option value="">Security Posture Management</option>
+                    </select>
+                    <div class="" style="width: 5%;"></div>
+                    <select class="form-control d-block" style="width: 30%;" name="type" id="">
+                        <option value="" disabled selected hidden>Filler by industy</option>
+                        <option value="">Education</option>
+                        <option value="">Financial Services</option>
+                        <option value="">Government</option>
+                        <option value="">Healthcare</option>
+                        <option value="">Oil, Gas, and Utilities</option>
+                        <option value="">Retail</option>
+                        <option value="">Hospitality</option>
+                        <option value="">Environmental Services</option>
+                        <option value="">Manufacturing</option>
+                        <option value="">Religious</option>
+                        <option value="">Business Process Outsourcing and Technology</option>
+                        <option value="">Insurance</option>
+                        <option value="">Asset Management</option>
+                        <option value="">Transportation</option>
+                        <option value="">Legal</option>
+                        <option value="">Tech</option>
+                        <option value="">Consumer Services</option>
+                        <option value="">Professional Servies</option>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12 h-100 mt-4 mt-sm-4 mt-md-0">
+                    <form>
+                        <div class="input-group">
+                            <div>
+                                <img src="../IMG/Abnormal/Search.png">
                             </div>
-                            <div class="col-md-8 d-flex flex-row justify-content-end align-items-start">
-                                <a class="inform-link nav-link" href="#">Responsible Disclosure</a>
-                                <a class="inform-link nav-link" href="#">Trust Center</a>
-                                <a class="inform-link nav-link" href="#">Status</a>
-                                <a class="inform-link nav-link" href="#">Privacy Policy</a>
-                                <a class="inform-link nav-link" href="#">Terms of Use</a>
-                                <a class="inform-link nav-link" href="#">Legal</a>
+                            <input type="text" class="form-control border-0" placeholder="Search" aria-label="Search">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary border-0" type="submit" id="">&rarr;</button>
                             </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Analyst Research</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Analyst Research &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sec1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">The Total Economic Impact™ Of Abnormal Security Infographic</h6>
+                        <p style="font-size: 14px;">This infographic depicts the highlights of Forrester's report on the three-year financial impact of Abnormal Security.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sec2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">2023 Gartner® Market Guide for Email Security</h6>
+                        <p style="font-size: 14px;">Abnormal's fundamentally different approach to cloud email security provides the best protection against existing and emerging attack techniques.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sec3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">2022 Email Security Trends Report: Managing Risks Amidst the Changing Threat Landscape</h6>
+                        <p style="font-size: 14px;">We surveyed 300 security leaders to discover what matters most to them when it comes to email security in the current threat landscape.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sec4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">2022 SANS Protects: Enterprise Email</h6>
+                        <p style="font-size: 14px;">This SANS Protects white paper explores some of the most common threats to enterprise email and shares a few ways organizations can block malicious emails from entering their environment.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Thi-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Threat Reports</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Threat Reports &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Thi1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">From CEO Fraud to Vendor Fraud: The Shift to Financial Supply Chain Compromise</h6>
+                        <p style="font-size: 14px;">For years, executives were the go-to impersonated party in business email compromise attacks. Now, threat actors are opting to impersonate vendors and suppliers instead.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Thi2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">H1 2022: Fraudsters Use Email in Phone Scams, Targeting 89% of Organizations</h6>
+                        <p style="font-size: 14px;">From June-December 2021, Abnormal Security discovered that nearly all types of advanced email attacks grew  in frequency, with a new trend of phone fraud using email as the first contact.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Thi3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">The Evolution of Ransomware: Victims, Threat Actors, and What to Expect in 2022</h6>
+                        <p style="font-size: 14px;">Our threat report on ransomware shares insight on attack methods, locations, payouts, and more across 4,200 victims.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Thi4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Q1 2021: The Rising Threat of Vendor Email Compromise</h6>
+                        <p style="font-size: 14px;">Read the Q1 2021 threat report to learn the latest on vendor email compromise, including which scams are most successful and why the volume of attacks has grown so significantly.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fou-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Data Sheets</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Data Sheets &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fou1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal Security for Slack</h6>
+                        <p style="font-size: 14px;">Secure your messages and keep Slack from becoming an entry point for attackers.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fou2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal Security for Zoom</h6>
+                        <p style="font-size: 14px;">Protect your Zoom collaboration and prevent attackers from using the application to breach your business.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fou3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Email-Like Account Takeover Protection</h6>
+                        <p style="font-size: 14px;">Detect compromised user accounts across your critical communication channels with Email-Like Account Takeover Protection.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fou4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal + CrowdStrike</h6>
+                        <p style="font-size: 14px;">Abnormal and CrowdStrike complement one another with high-fidelity detection of sophisticated threats and faster, more effective response playbooks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-4 mb-5" style="background-color: #A7DED2;">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="width: 100%;">
+            <h4 class="pt-3" style="font-weight: normal;">Get the Latest Email Security Insights</h4>
+            <h6 class="text-center pt-3" style="width: 60%; font-weight: normal;">
+                Subscribe to our newsletter to receive updates on the latest attacks and new trends in the email threat landscape.
+            </h6>
+            <div class="input-group pt-3" style="width: 65%;">
+                <input type="text" class="form-control" placeholder="Email Address">
+                <input type="submit" class="btn" value="Subscribe" style="color: #FFFFFF; background-color: #000000;">
+            </div>
+        </div>
+    </div>
+    <!--Fiv-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">White Papers</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All White Papers &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fif1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">ABX: Abnormal Behavior Technology</h6>
+                        <p style="font-size: 14px;">Abnormal Behavior Technology (ABX) leverages innovative techniques to provide a revolutionary approach to detecting and mitigating targeted email attacks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fif2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">TAG Cyber Enterprise Buyer's Guide for Cloud Email Security Solutions</h6>
+                        <p style="font-size: 14px;">Download the buyer's guide for valuable advice on effectively securing cloud email environments and choosing the right cloud email security solutions provider.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fif3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">CISO Guide to Account Takeover</h6>
+                        <p style="font-size: 14px;">Even one successful compromised account can start a cascade of other internal and external attacks, making it possibly the most dangerous email threat organizations face.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Fif4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">CISO Guide to Phishing</h6>
+                        <p style="font-size: 14px;">Because phishing emails target human behavior, create a sense of urgency, and appear to come from trusted senders, they can be incredibly difficult to detect. Stopping them before they reach employee inboxes is the key to staying safe.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Six-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Customer Stories</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Customer Stories &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Six1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Rubicon Reduces Waste and Increases Efficiency with API-Based Email Security</h6>
+                        <p style="font-size: 14px;">Abnormal has eliminated the waste of reviewing copious email alerts and false positives, allowing the Rubicon team to focus on more strategic initiatives.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Six2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Forsyth County Takes a Proactive Stance on Data and Operational Security</h6>
+                        <p style="font-size: 14px;">Security team implements Abnormal to prevent advanced attacks targeting local governments nationwide.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Six3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">ADT Helps Protect Workforce with Comprehensive Email Defense</h6>
+                        <p style="font-size: 14px;">With Abnormal, ADT has a robust security solution that protects its employees from advanced email attacks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Six4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Guiding Global Clients Securely Through Mergers, Restructuring, and More</h6>
+                        <p style="font-size: 14px;">Guiding Global Clients Securely Through Mergers, Restructuring, and More</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sev-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Webinars</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Webinars &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sev1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">How Choice Hotels Utilizes Innovative Security Solutions to Protect its Email Ecosystem</h6>
+                        <p style="font-size: 14px;">Discover how Choice Hotels is simplifying their email security, streamlining their operations, and preventing email attacks with the highest efficacy.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sev2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">How 4 Cybersecurity Companies Protect Against Cloud Vulnerabilities</h6>
+                        <p style="font-size: 14px;">Cybersecurity leaders from Rubrik, Noname, Wiz, and Abnormal Security share their experiences and insights in this on-demand CISO fireside chat.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sev3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">The Myth of Cybersecurity: Identifying and Mitigating Cyberattacks with Dr. Eric Cole</h6>
+                        <p style="font-size: 14px;">Cybersecurity expert Dr. Eric Cole discusses how the threat landscape is changing and steps you can take to make sure you're as protected as possible.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Sev4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">5 Email Attacks to Watch For: How Threat Actors Are Targeting You</h6>
+                        <p style="font-size: 14px;">In this interview with SecureWorld, Crane Hassold, Abnormal's Director of Threat Intelligence, shares real-world examples of advanced email attacks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-4 mb-5" style="background-color: #A7DED2;">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="width: 100%;">
+            <h4 class="pt-3" style="font-weight: normal;">Get the Latest Email Security Insights</h4>
+            <h6 class="text-center pt-3" style="width: 60%; font-weight: normal;">
+                Subscribe to our newsletter to receive updates on the latest attacks and new trends in the email threat landscape.
+            </h6>
+            <div class="input-group pt-3" style="width: 65%;">
+                <input type="text" class="form-control" placeholder="Email Address">
+                <input type="submit" class="btn" value="Subscribe" style="color: #FFFFFF; background-color: #000000;">
+            </div>
+        </div>
+    </div>
+    <!--Eig-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Product Demos</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Product Demos &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Eig1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Use Case: BEC - Executive Impersonation</h6>
+                        <p style="font-size: 14px;">See how Abnormal prevents sophisticated socially-engineered attacks that lack traditional indicators of compromise and evade secure email gateways.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Eig2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Use Case: Vendor Email Compromise</h6>
+                        <p style="font-size: 14px;">Learn how Abnormal blocks attack emails originating from compromised vendors in your supply chain.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Eig3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Use Case: Credential Phishing</h6>
+                        <p style="font-size: 14px;">Discover how Abnormal protects your users from phishing links that aim to steal account credentials.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Eig4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Use Case: Payloadless Malware</h6>
+                        <p style="font-size: 14px;">Discover how Abnormal prevents text-only emails that direct employees externally to download malware.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Nin-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Industry Briefs</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Industry Briefs &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Nin1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal for K-12 School Systems</h6>
+                        <p style="font-size: 14px;">Schools are increasingly popular targets for advanced email attacks. See how Abnormal blocks these threats.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Nin2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal for the Hospitality Industry</h6>
+                        <p style="font-size: 14px;">Threat actors target hospitality businesses to steal troves of personally identifiable information. Learn how Abnormal stops these attacks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Nin3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal for Manufacturers</h6>
+                        <p style="font-size: 14px;">Attackers go after manufacturers to steal data, engage in corporate or nation-state espionage, and commit financial fraud.  Learn how Abnormal protects manufacturers.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Nin4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal for the NHS</h6>
+                        <p style="font-size: 14px;">The NHS is a magnet for cybercriminals, with 81% of organisations across the UK suffering a ransomware attack in the past year. Learn how Abnormal protects the NHS.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ten-->
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Videos</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Videos &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ten1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">CrowdStrike + Abnormal Security Partner to Deliver Joint AI-Based Threat Detection and Response</h6>
+                        <p style="font-size: 14px;">Abnormal Security CEO Evan Reiser and CrowdStrike President Mike Sentonas discuss the bi-directional integration between the two cybersecurity companies.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ten2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Abnormal's Cloud-Native Email Security Integrates with Microsoft Sentinel</h6>
+                        <p style="font-size: 14px;">Learn about the integration between Abnormal Security and Microsoft Sentinel.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ten3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Email as a Threat Vector in 2023</h6>
+                        <p style="font-size: 14px;">Abnormal's Director of Threat Intelligence, Crane Hassold, discusses the inherent weaknesses of email and how organizations can defend against attacks.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ten4.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">Evaluating the Email Threat Landscape with Abnormal's CISO</h6>
+                        <p style="font-size: 14px;">Abnormal's CISO Mike Britton discusses new and emerging email attacks and why organizations should rethink cloud email security with Ed Amoroso of TAG Cyber.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-4 mb-5" style="background-color: #A7DED2;">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="width: 100%;">
+            <h4 class="pt-3" style="font-weight: normal;">Get the Latest Email Security Insights</h4>
+            <h6 class="text-center pt-3" style="width: 60%; font-weight: normal;">
+                Subscribe to our newsletter to receive updates on the latest attacks and new trends in the email threat landscape.
+            </h6>
+            <div class="input-group pt-3" style="width: 65%;">
+                <input type="text" class="form-control" placeholder="Email Address">
+                <input type="submit" class="btn" value="Subscribe" style="color: #FFFFFF; background-color: #000000;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center pt-2 pb-2">
+                <h3 class="col-md-6 text-left">Tools</h3>
+                <a class="d-block col-md-6 text-right top-link" style="font-size: 20px;" href="#">See All Tools &rarr;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ele1.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">ROI Calculator: Discover Your Abnormal Return on Investment</h6>
+                        <p style="font-size: 14px;">Discover the ROI you can experience with Abnormal Security.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ele2.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">10 Considerations to Shape Your Cloud Email Security Strategy</h6>
+                        <p style="font-size: 14px;">Determine what you need from a cloud email security platform and ensure you ask the right questions when evaluating potential solutions.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-1">
+                    <img src="../IMG/Abnormal_Resources/Ele3.avif" width="100%">
+                    <div class="d-flex flex-column justify-content-start align-items-start pt-3 pl-2" style="height: 230px;">
+                        <h6 style="font-weight: normal;">CISO Resource Kit</h6>
+                        <p style="font-size: 14px;">It's important to take time to evaluate your email security practices, both for your employees and across your organization. These resources can help.</p>
+                    </div>
+                    <div class="pl-2">
+                        <a class="top-link" href="#">&rarr; Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #DBE2E9;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12 d-flex flex-column justify-content-start align-items-start pt-5 pl-2" style="height: 420px;">
+                    <p style="font-size: 32px;">
+                        See the Abnormal Solution to the Email Security Problem
+                    </p>
+                    <h5 class="pt-3 pb-3" style="font-weight: normal;">
+                        Protect your organization from the full spectrum of email and collaboration application attacks with Abnormal.
+                    </h5>
+                    <input class="d-block btn" type="button" value="See a Demo &rarr;" style="color: #FFFFFF; background-color: #6863F2;">
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 d-flex flex-column justify-content-end" style="height: 420px;">
+                    <img class="d-block" src="../IMG/Abnormal/Calculation.png" width="130%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Body-->
+    <footer>
+        <div class="container">
+            <div class="row" style="width: 100%; height: 700px; position: relative; z-index: 1;">
+                <div class="col-md-12 d-flex flex-row justify-content-around align-items-start">
+                    <div class="foot-item">
+                        <img id="abnormal-small" src="../IMG/Abnormal/Abnormal-small.png" width="100%">
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Why Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Products</a>
+                        <a class="nav-link" href="#">All Products</a>
+                        <a class="nav-link" href="#">Inbound Email<br>Security</a>
+                        <a class="nav-link" href="#">Abuse Emailbot<br>Automation</a>
+                        <a class="nav-link" href="#">Account<br>Takeover<br>Protection</a>
+                        <a class="nav-link" href="#">Email<br>Productivity</a>
+                        <a class="nav-link" href="#">Security<br>Posture<br>Management</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Solutions</a>
+                        <a class="nav-link" href="#">For Microsoft<br>Office</a>
+                        <a class="nav-link" href="#">For Google<br>Wordspace</a>
+                        <a class="nav-link" href="#">Credential<br>Phishing</a>
+                        <a class="nav-link" href="#">Business Email<br>Compromise</a>
+                        <a class="nav-link" href="#">Malware &<br>Ransomware</a>
+                        <a class="nav-link" href="#">Unwanted Mail</a>
+                        <a class="nav-link" href="#">Email Platform<br>Attack</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Customers</a>
+                        <a class="nav-link" href="#">Customer Stories</a>
+                        <a class="nav-link" href="#">Gartner Peer<br>Insights</a>
+                        <a class="nav-link" href="#">Support Portal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Partners</a>
+                        <a class="nav-link" href="#">Microsoft<br>Partnership</a>
+                        <a class="nav-link" href="#">Technology<br>Partners</a>
+                        <a class="nav-link" href="#">Partner Portal</a>
+                        <a class="nav-link" href="#">CrowdStrike +<br>Abnormal</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Resources</a>
+                        <a class="nav-link" href="#">All Resources</a>
+                        <a class="nav-link" href="#">Abnormal Blog</a>
+                        <a class="nav-link" href="#">Abnormal<br>Intelligence</a>
+                        <a class="nav-link" href="#">Cybersecurity<br>Glossary</a>
+                    </div>
+                    <div class="foot-item">
+                        <a class="nav-link foot-link-top" href="#">Company</a>
+                        <a class="nav-link" href="#">About Abnormal</a>
+                        <a class="nav-link" href="#">Careers</a>
+                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#">Upcoming Events</a>
+                        <a class="nav-link" href="#">New & Press</a>
+                        <a class="nav-link" href="#">Abnormal<br>Business School</a>
+                    </div>
+                </div>
+                <img id="footer-foot-img" src="../IMG/Abnormal/Frame.png">
+            </div>
+            <div id="footer-foot" class="row" style="height: 390px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h2 class="text-light">Abnormal Precisely<br>Stops Zero-Day Email<br>Attacks</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4 d-flex flex-row justify-content-start align-items-center p-0" style="font-size: 14px; color: #FFFFFF;">
+                            <div class="inform-link">
+                                &#169;2023 Abnormal Security Corp. All rights reserved.
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex flex-row justify-content-end align-items-start">
+                            <a class="inform-link nav-link" href="#">Responsible Disclosure</a>
+                            <a class="inform-link nav-link" href="#">Trust Center</a>
+                            <a class="inform-link nav-link" href="#">Status</a>
+                            <a class="inform-link nav-link" href="#">Privacy Policy</a>
+                            <a class="inform-link nav-link" href="#">Terms of Use</a>
+                            <a class="inform-link nav-link" href="#">Legal</a>
                         </div>
                     </div>
                 </div>

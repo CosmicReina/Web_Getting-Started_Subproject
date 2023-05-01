@@ -26,11 +26,6 @@ footer{
     padding: 0;
 }
 
-#navbar-nav>.nav-link{
-    padding: 8px;
-    font-size: 16px;
-}
-
 #btn-demo{
     color: #FFFFFF;
     background-color: #000000;
@@ -67,9 +62,9 @@ footer{
     background-color: #0d1418;
 }
 
-#footer-foot>img{
+#footer-foot-img{
     position: absolute;
-    top: -350px;
+    top: 350px;
     z-index: 0;
 }
 
@@ -81,4 +76,48 @@ footer{
 
 .inform-link:hover{
     color: #FFFFFF;
+}
+
+#top{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    row-gap: 6%;
+}
+
+.top-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-link:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.carousel-instance>*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select.form-control{
+    border: none;
+    box-shadow : inset 0px -2px 0px 0px #000000;
+}
+
+select.form-control:focus{
+    box-shadow : none
+}
+
+select.form-control option{
+    color: #000000;
+}
+
+#sec{
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5% ;
+    column-gap: 2%;
+}
+
+.input-group input:focus{
+    box-shadow : none;
 }
