@@ -103,3 +103,26 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+select.form-control{
+    border: none;
+    box-shadow : inset 0px -2px 0px 0px #000000;
+}
+
+select.form-control:focus{
+    box-shadow : none
+}
+
+select.form-control option{
+    color: #000000;
+}
+
+#sec{
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5% ;
+    column-gap: 2%;
+}
+
+.input-group input:focus{
+    box-shadow : none;
+}
