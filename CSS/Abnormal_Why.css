@@ -67,9 +67,9 @@ footer{
     background-color: #0d1418;
 }
 
-#footer-foot>img{
+#footer-foot-img{
     position: absolute;
-    top: -350px;
+    top: 350px;
     z-index: 0;
 }
 
